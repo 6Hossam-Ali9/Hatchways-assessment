@@ -1,0 +1,33 @@
+html{ 
+  background-color: #eeeeee;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  display: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  display: hidden;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(104, 101, 101);
+  padding: 2px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

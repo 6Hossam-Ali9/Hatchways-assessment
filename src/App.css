@@ -1,0 +1,129 @@
+.window{
+  height: 80vh;
+  background-color: #ffffff;
+  padding: 0 !important;
+  overflow: scroll;
+  border-radius: 15px;
+  box-shadow: rgb(80, 78, 78) 2px 1px 4px 1px;
+}
+
+.main-row{
+  position: fixed;
+  padding-top: 6%;
+  width: 70%;
+  left: 16%;
+}
+
+img{
+  width: 100%;
+  border: #f1eef1 1px solid;
+  border-radius: 300px;
+  min-width: 100px;
+  margin-left: 15px;
+}
+.info{
+  padding-left: 15px;
+  padding-top: 7px;
+  color: #8f8f8f;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.grades{
+  line-height: 16px;
+}
+
+.pl-25{
+  padding-left: 25px;
+}
+
+input{
+  /* display: sticky; */
+  width: 100%;
+  border: 0;
+  margin: 0 20px !important;
+  border-bottom: 1px #cfc9c9 solid;
+  font-size: 25px !important;
+  font-weight: 100;
+}
+
+input::placeholder{
+  color: #797979;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 1px black solid;
+}
+
+.inputs{
+  z-index: 3;
+  top: 0;
+  overflow: visible;
+
+}
+
+svg{
+  color: grey;
+}
+
+svg:hover{
+  color: black;
+  cursor: pointer;
+}
+
+input.tag-input{
+  font-size: 18px !important;
+  font-weight: normal !important;
+  width: 150px !important;
+  line-height: 40px ;
+}
+
+.tag{
+  padding: 10px;
+  background-color: #dcdcdc;
+  font-size: 20px;
+  margin-left: 17px;
+}
+
+.tagCont{
+  padding-left: 18px;
+}
+@media screen and (max-width: 992px) {
+  img {
+    width: 250px;
+    display: block;
+    margin: auto;
+  }
+  
+  .center-all{
+    text-align: center;
+  }
+
+  svg {
+    display: block;
+    margin: auto;
+  }
+
+  .grades {
+    text-align: center;
+  }
+
+  .tag {
+    text-align: center;
+  }
+  .tagCont {
+    padding-left: 20px !important;
+    text-align: center;   
+  }
+
+  .tag-input {
+    margin: auto !important;
+    display: block;
+    text-align: center;
+  }
+
+  .input-cont{
+    padding-left: 45px !important;
+  }
+}
